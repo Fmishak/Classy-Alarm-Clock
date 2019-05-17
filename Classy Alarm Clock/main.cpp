@@ -71,7 +71,6 @@ private:
     string userName;
     int color;
 public:
-    //friend class ALARM;
     UserProfile(string, int);
     UserProfile(){
         userName = "";
@@ -81,7 +80,6 @@ public:
     void setColor(int);
     string getUserName()const;
     int getColor() const;
-    //bounceBubbles();
 };
 UserProfile::UserProfile(string un, int c)
 {
