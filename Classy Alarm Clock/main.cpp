@@ -327,6 +327,7 @@ void show_help(int start_y, int start_x) {
 	mvprintw(start_y++, start_x, "  A    Add alarm");
 	mvprintw(start_y++, start_x, "  D    Delete alarm");
 	mvprintw(start_y++, start_x, "  L    List alarms");
+	mvprintw(start_y++, start_x, "  Q    Quit");
 	mvprintw(start_y++, start_x, "  ?    Show this help screen");
 	mvprintw(start_y++, start_x, "SPACE  Silence an active alarm");
 	refresh(); // actually send the text to the screen!
