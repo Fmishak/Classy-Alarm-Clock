@@ -6,3 +6,7 @@ cd Classy-Alarm-Clock
 make
 ./classy-alarm-clock
 ```
+
+For help, press ? while running.
+
+Alarm data is saved in `alarms.cereal`, which is created if it doesn't already exist.
